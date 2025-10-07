@@ -1,4 +1,25 @@
-:root {
+.navBtns {
+  width: 22.5rem;
+  cursor: pointer
+}
+
+.grey {
+  color: #9A9A9A;
+}
+
+a.link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.col-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+/* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -65,4 +86,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */
