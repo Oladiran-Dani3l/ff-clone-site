@@ -1,11 +1,12 @@
 import React from "react";
 import { Flex, Box, Text } from "@chakra-ui/react";
-import { awards } from "../data/awards";
+import { awards } from "../../data/awards";
 
 
 const Awards = () => {
   return (
-    <Flex w="100%" direction={{ base: "column", md: "column" }}>
+    // SCROLLBAR TO BE IMPLEMENTED HERE FOR MOBILE MODE
+    <Flex w="100%" direction={{ base: "row", md: "column" }}>
       {awards.map((award) => (
         <Flex
           key={award.id}

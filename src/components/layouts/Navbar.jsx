@@ -30,19 +30,19 @@ const Navbar = () => {
         >
           Creative Technology Studios
         </Text>
-        <HStack
-          spacing={{ base: 4, md: 6 }}
-          pl={{ base: 0, md: "12rem" }}
-        >
+        <HStack spacing={{ base: 4, md: 6 }} pl={{ base: 0, md: "12rem" }}>
           {["Studio", "Contact", "Work"].map((label) => (
             <Text
               key={label}
               as="a"
               href={`#${label.toLowerCase()}`}
               fontWeight="500"
-              _hover={{
-                textDecoration: "underline"
-              }}
+              cursor="pointer"
+              _hover={{ textDecoration: "underline" }}
+              // onClick={() => {
+              //   console.log("Clicked:", label);
+              //   if (["Contact", "Work"].includes(label)) onOpenSidebar();
+              // }}
             >
               {label}
             </Text>
