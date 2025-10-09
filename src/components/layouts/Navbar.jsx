@@ -6,7 +6,6 @@ const Navbar = () => {
     <Box
       as="nav"
       w="100%"
-      px={{ base: 4, md: 8 }}
       py="11px"
       height="2.875rem"
       bg="transparent"

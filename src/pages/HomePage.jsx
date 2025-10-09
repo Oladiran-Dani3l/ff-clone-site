@@ -1,9 +1,9 @@
-import React from "react";
+import React from "react"
+import Awards from "../components/shared/Awards";
 
 const HomePage = () => {
     return (
-        <>
-        </>
+        <Awards/>
     )
 }
 
