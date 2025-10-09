@@ -1,9 +1,4 @@
-.navBtns {
-  width: 22.5rem;
-  cursor: pointer
-}
-
-.grey {
+.footer-grey {
   color: #9A9A9A;
 }
 
@@ -16,6 +11,51 @@ a.link:hover {
   display: flex;
   flex-direction: column;
 }
+
+/* NAVBAR */
+
+.navBtns {
+  width: 22.5rem;
+}
+
+
+/* AWARDS */
+
+.award{
+  border-top: 1px solid #1D1D1D4D;
+  padding-top: 1.125rem;
+  padding-bottom: 2rem;
+  font-size: 0.72rem;
+  font-weight: 400;
+  text-align: start;
+}
+
+.award-font {
+  font-size: 1.2rem;
+}
+
+.awards-grey {
+  color: #1D1D1D4D;
+  margin-bottom: 6px;
+}
+
+.award-num {
+  width: 7.625rem;
+}
+
+.award-title {
+  width: 31.5rem;
+  font-size: 1.2rem;
+}
+
+.award-project {
+  width: 16.875rem;
+}
+
+.award-year {
+  width: 4.625rem;
+}
+
 
 
 
