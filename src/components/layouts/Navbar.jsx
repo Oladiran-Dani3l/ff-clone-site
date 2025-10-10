@@ -4,6 +4,7 @@ import FFLogo from "../../assets/Form-Fun Logo.svg"
 const Navbar = () => {
  return (
     <Box
+      className="home-font-sm"
       as="nav"
       w="100%"
       py="11px"
@@ -26,7 +27,6 @@ const Navbar = () => {
         <Text
           display={{ base: "none", md: "block" }}
           fontWeight="medium"
-          color="gray.700"
         >
           Creative Technology Studios
         </Text>

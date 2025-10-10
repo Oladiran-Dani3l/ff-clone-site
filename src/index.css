@@ -1,3 +1,30 @@
+@font-face {
+  font-family: 'Aeonik';
+  src: url('/public/aeonik/Aeonik-Regular.ttf');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Aeonik';
+  src: url('/public/aeonik/Aeonik-Bold.ttf');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+body {
+  font-family: 'Aeonik', san-serif;
+}
+
+
+
+
+
+
+
 .footer-grey {
   color: #9A9A9A;
 }
@@ -16,6 +43,23 @@ a.link:hover {
 
 .navBtns {
   width: 22.5rem;
+}
+
+/* HOMEPAGE */
+.home-font-lg{
+  font-size: 3.52rem;
+  line-height: 3.52rem;
+}
+
+.home-font-sm{
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+/* WORK */
+.work-font{
+  font-size: 5rem;
+  line-height: 5rem;
 }
 
 
