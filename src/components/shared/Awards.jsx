@@ -5,8 +5,11 @@ import { awards } from "../../data/awards";
 
 const Awards = () => {
   return (
-    // SCROLLBAR TO BE IMPLEMENTED HERE FOR MOBILE MODE
-    <Flex w="100%" direction={{ base: "row", md: "column" }}>
+    <Flex w="100%" direction="column">
+
+      <Text className="work-font" paddingBottom="4rem" w={{base:"30rem", md:"40rem"}}>AN AWARD WINNING STUDIO</Text>
+      
+    <Flex direction={{ base: "row", md: "column" }} overflow="hidden">
       {awards.map((award) => (
         <Flex
           key={award.id}
@@ -21,7 +24,7 @@ const Awards = () => {
           </Box>
 
           <Box className="award-title">
-            <Text>{award.title}</Text>
+            <Text fontStyle="bold">{award.title}</Text>
           </Box>
 
           <Box className="award-project">
@@ -42,6 +45,7 @@ const Awards = () => {
           </Box>
         </Flex>
       ))}
+    </Flex>
     </Flex>
   );
 };

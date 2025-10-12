@@ -73,6 +73,7 @@ const HomePage = () => {
       </Flex>
 
       {/* GRID OF DESIGNS */}
+      
 
 
         </Flex>

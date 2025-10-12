@@ -10,7 +10,7 @@ const Footer = () => {
                 height="2.5rem"
                 width="2.5rem"></Image>
             </Box>
-            <Flex gap="7px" justifyContent="space-between">
+            <Flex gap="7px" justifyContent="space-between"  className="home-font-sm">
 
                 <Flex direction="column" gap="10px" width="7.25rem">
                     <Text className="footer-grey">Menu</Text>
