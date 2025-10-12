@@ -10,8 +10,8 @@ function App() {
 
   return (
     <Layout>
-      {/* <HomePage/> */}
-      <Services/>
+      <HomePage/>
+      {/* <Services/> */}
     </Layout>
   )
 }

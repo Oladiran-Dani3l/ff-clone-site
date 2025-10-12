@@ -100,7 +100,7 @@ const Services = () => {
           return (
             <MotionBox
               key={item.id}
-              h="35rem"
+            //   h="35rem"
               w={{base:"21rem", md:"25.25rem"}}
               borderRadius="2xl"
               minW={isMobile ? "85%" : "auto"}
