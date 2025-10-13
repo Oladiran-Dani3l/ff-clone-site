@@ -117,6 +117,7 @@ import Services from "../components/sections/HomeSection/Services";
 import Awards from "../components/shared/Awards";
 import HeroVideo from "../components/sections/HomeSection/HeroVideo";
 import MotionText from "../components/sections/HomeSection/MotionText";
+import LogoCarousel from "../components/sections/HomeSection/LogoCarousel";
 
 
 const HomePage = () => {
@@ -128,7 +129,7 @@ const HomePage = () => {
     <ClickDragCarousel/>
     <WorkCarousel/>
     <WorkVideoGrid/>
-    {/* <HeroVideo/> */}
+    <LogoCarousel/>
     <Services/>
     <Awards/>
 
