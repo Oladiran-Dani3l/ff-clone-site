@@ -115,15 +115,20 @@ import WorkVideoGrid from "../components/sections/HomeSection/WorkVideoGrid";
 import ClickDragCarousel from "../components/sections/HomeSection/ClickDragCarousel";
 import Services from "../components/sections/HomeSection/Services";
 import Awards from "../components/shared/Awards";
+import HeroVideo from "../components/sections/HomeSection/HeroVideo";
+import MotionText from "../components/sections/HomeSection/MotionText";
 
 
 const HomePage = () => {
   return (
     <Flex direction={'column'} gap="3.25rem">
-      
+
+    <HeroVideo/>
+    <MotionText/>
     <ClickDragCarousel/>
     <WorkCarousel/>
     <WorkVideoGrid/>
+    {/* <HeroVideo/> */}
     <Services/>
     <Awards/>
 
