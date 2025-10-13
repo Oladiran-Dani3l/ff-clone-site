@@ -4,7 +4,7 @@ import FFLogo from "../../assets/Form-Fun Logo.svg"
 
 const Footer = () => {
     return (
-        <Flex height="7.875rem"justifyContent="flex-start" gap="38.125rem" mb="9.625rem">
+        <Flex height="7.875rem"justifyContent="flex-start" gap="38.125rem" mb="9.625rem" overflow="hidden">
             <Box>
                 <Image src={FFLogo}
                 height="2.5rem"
